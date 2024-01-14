@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové a datové soubory</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            color: dimgrey;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Programové a datové soubory</h1>
+    </header>
+    <main>
+        <h2>Soubor</h2>
+        <div class="container">
+            <div class="column">
+                <!-- Obsah prvního sloupce -->
+                Soubor (file) je množina souvisejících dat uložených na diskové jednotce. Název souboru je obvykle tvořen jménem (ve Windows až 254 znaků) a příponou, která naznačuje typ souboru. K dalším vlastnostem souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová práva apod.
+
+                K přehlednější práci se soubory slouží systém adresářů či složek (directories, folders). Adresáře tvoří na disku typicky hierarchickou strukturu (tree - strom); základem je tzv. kořenový adresář (root) označený symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář může obsahovat soubory i podadresáře (subdirectories).
+            </div>
+        </div>
+    </main>
+
+    <img src="../img/Obr.-63-Stromová-struktura.png" alt="Struktura složek">
+    <p>(Tzv. Stromová struktura složek)</p>
+
+    <h2>Cesta k souborům</h2>
+    <div class="container">
+        <div class="column">
+            <!-- Obsah druhého sloupce -->
+            Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: C:\XAMPP\mysql\bin\mysql.exe. Pro operace se soubory využíváme někdy zástupné znaky <span class="highlight">(wildcards)</span>:
+
+            -symbol * nahrazuje v názvu libovolný počet znaků (např. *.*);
+            -symbol ? nahrazuje jeden libovolný znak (např. s?s.txt).
+        </div>
+    </div>
+
+    <h2>Programové soubory</h2>
+    <div class="container">
+        <div class="column">
+            Programový soubor je soubor obsahující část nebo celý program (např. textový editor, tabulkový procesor apod.). Program je obvykle tvořen více než jedním programovým souborem.
+        </div>
+    </div>
+    <p>&copy; 2024, autor: <b>Petr Vítek</b>, třída: <b>IT1</b> &reg;</p>
+</body>
+</html>

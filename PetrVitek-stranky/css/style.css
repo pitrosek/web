@@ -1,0 +1,43 @@
+h1 {
+    text-align: center; 
+    color: rgb(58, 35, 184); 
+    font-size: 50px; 
+    margin-top: 50px; 
+    text-transform: uppercase; 
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+h2 {
+    color: rgb(58, 35, 184);
+    font-size: 20px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #b4b5db;
+  color: #333;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+.highlight {
+  color: black;
+  background-color: yellow;
+}
+h3 {
+  color: red;
+}

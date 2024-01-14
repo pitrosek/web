@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programové soubory</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            color: dimgrey;
+            text-align: center;
+        }
+        .highlight {
+            color: blue; /* Změňte na požadovanou barvu */
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Programové soubory</h1>
+
+        <h2>Co dělají a jak fungují?</h2>
+        <div class="container">
+            <div class="column">
+                <strong>Programové soubory</strong> obsahují instrukce, podle nichž procesor ve
+                spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+                Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve
+                <strong>strojovém kódu</strong> pro danou platformu), nebo ve zdrojovém kódu, obsahujícím příkazy určitého programovacího jazyka. Mezi programové
+                soubory můžeme zařadit také skripty, soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program - <span class="highlight">interpret</span>.
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="column">
+                Větší programy jsou tvořeny <strong><a href="https://cs.wikipedia.org/wiki/Kategorie:Programové_knihovny" target="_blank">programovými knihovnami</a></strong> (runtime libraries),
+speciálními soubory s připravenými funkcemi, které programy využívají pro
+svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména
+ovladače čili drivery, ale i systémové funkce), nebo také DLL (dynamic linking
+library - dynamicky linkované knihovny), které mohou být podle potřeby za
+běhu (dynamicky) připojeny k jednomu i více programů. 
+            </div>
+        </div>
+        <h2>Spustitelné přípony souborů</h2>
+        <div class="container">
+            <div class="column">
+                Některé soubory s tzv. <strong>spustitelnou příponou</strong> (např. .exe a .com ve Windows, .sh v Linuxu) slouží ke spuštění programu - aktivaci procesu v rámci
+operačního systému. Za <strong>rezidentní programy</strong> (služby, démony) označujeme
+ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému
+(např. antivirové programy).
+            </div>
+        </div>
+    </main>
+    <img src="../img/pripony-souboru.png" alt="přípony">
+    <p>(Spusitelné přípony souborů)</p>
+    <p>&copy; 2024, autor: <b>Petr Vítek</b>, třída: <b>IT1</b> &reg;</p>
+</body>
+</html>
